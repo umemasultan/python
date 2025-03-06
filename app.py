@@ -1,43 +1,58 @@
-students={
-    "x":{"urdu":76,"math":64},
-    "y":{"eng":76,"phy":64}
+                         #//First Assignment Of Python
+print("ABOUT ME")
+print ("Hello I Am Frontned Developer")
+#/String-start/
+Username:str="Umema"
+print (Username)
+FatherName ="Sultan"
+print (FatherName)
+Class="Intermidiate"
+print(Class)
+Passion="Web-Developer"
+print(Passion)
+DateOfBirth="07/10/2005"
+print(DateOfBirth)
+Religion="Islam"
+print(Religion)
+Nationality="Pakistani"
+print(Nationality)
+MatrialStatus="Single"
+print(MatrialStatus)
+Language="English/Urdu/Pashto"
+#/String-end/
 
-}
-x=students["x"]["urdu"]
-print(x)
-x=students["x"]["math"]
-print(x)
+#Integers-start//
+Age:int=19
+print(Age)
+password=125700
+print(password)
+contact= +9243790
+print(contact)
+
+#Integers-end//
+
+#/Boolean-start/
+Allowed:bool= True
+print(Allowed)
+Allowed= False
+print(Allowed)
+#/Boolean-end/
+
+#/overright/
+Skills:str="Photoshop"
+Skills="Web Development"
+print(Skills)
+OtherSkill="ContentWritting"
+OtherSkill="VideoEditing"
+print(OtherSkill)
+ProgrammingLanguage="JavaScript"
+ProgrammingLanguage="Python"
+print(ProgrammingLanguage)
+OtherLanguage="C++"
+OtherLanguage="Java"
+print(OtherLanguage)
 
 
 
-#    "name":"umema",
-#     "lname":"khan",
-#     "password":"umema@gmail.com",
-#     "age":19
 
 
-
-
-
-#// how to create calculator in python//
-
-print("python calculator")
-num1 =int(input("enter ur 1st num"))
-num2 =int(input("enter ur 1st num"))
-print("Operators types")
-print(" + for Add")
-print(" - for sub")
-print(" * for mul")
-print(" / for div")
-
-operators=(input("select the symbol above on:"))
-if operators=="+":
-    result=num1+num2
-if operators=="-":
-    result=num1-num2
-if operators=="*":
-    result=num1*num2
-if operators=="/":
-    result=num1/num2
-else:
-    print(f"Result:{result}")
